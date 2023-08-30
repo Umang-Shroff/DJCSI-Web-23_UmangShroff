@@ -1,11 +1,175 @@
 # DJCSI-Web-23_UmangShroff
-DJCSI interviews Front-End Web Development Task.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo1</title>
+    <link rel="stylesheet" href="UmangShroff.css">
+</head>
+<body>
 
-Install both HTML and CSS files in the same folder to make sure the site functions properly. 
+    <header id="head" style="background-color: black;">
+        <div id="navbar">
+            <div href="#" id="m1" class="m">About</div>
+            <div href="#" id="m2" class="m">Features</div>
+            <div href="#" id="m3" class="m">Integrations</div>
+            <div href="#" id="m4" class="m">Clients</div>
+            <div href="#" id="m5" class="m">Testimonies</div>
+            <div style="font-weight: bold;" href="#" id="m6" class="m">Contact Us</div>
+    
+            <div id="imagebox" >
+            
+            </div>
+        </div>
+        
+    </header>
 
-I have made this web page as a part of the basic task provided for DJCSI Interviews 2023.
-Due to time constraints and the complexity of the code I have failed to make the web page responsive ( 1225 x 665 size for optimal display ).
+    
 
-For CSI members reading through this:
+    <div style="text-align: left; height: 645px;  background-color: #7e01c6;">
+        <article id="image"></article>
+        
+        <p id="fronthead">
+            The Quicker, Better, Smarter Expense Management Tool
+        </p>
+        <p id="lowhead"> Is your business caught in the red-tape of endless paper trails, the rigmarole of stuck approvals, faulty financial data entry and hours of number crunching? We've got you covered.</p>
 
-THe images provided as part of the Assets in the task are not included because I have used hyperlinks to the images, and as a result only the HTML file and the CSS file are in the repository.
+    </div>
+
+    <div id="style"> </div>
+
+    <div id="backstyle"> </div>
+    
+
+
+
+
+
+
+
+
+    <div id="secondpg">
+    </div>
+
+    <div id="f1" class="format" style="top: 820px; left: 50px; height: 75px; width: 250px;"> 
+        <details>
+            <summary style="text-align: center;" class="max1">Budget Multiple Projects</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>    
+    </div>
+
+    <div id="f2" class="format" style="top: 930px; left: 30px; height: 75px; width: 280px;">
+        <details>
+            <summary style="text-align: center;" class="max1">Invoice Scan & Auto-Import</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f3" class="format" style="top: 1040px;left: 50px;height: 75px;width: 250px;">
+        <details>
+            <summary style="text-align: center;" class="max1">Inventory Tracker</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f4" class="format" style="top: 1150px;left: 50px;height: 100px;width: 250px;">
+        <details>
+            <summary style="text-align: center;" class="max1">Approval System with Levels</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f5" class="format" style="top: 820px;right: 50px;height: 75px;width: 250px;">
+        <details>
+            <summary  class="max1">Assign Project Members</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f6" class="format" style="top: 930px;right: 50px;height: 75px;width: 250px;">
+        <details>
+            <summary  class="max1">Dashboard</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f7" class="format" style="top: 1040px;right: 50px;height: 75px;width: 250px;">
+        <details>
+            <summary  class="max1">Duplicates Detector</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </details>
+    </div>
+
+    <div id="f8" class="format" style="top: 1150px;right: 50px;height: 150px;width: 250px;">
+        <details>
+            <summary  class="max1">Integrations with 3rd Party Tools</summary>
+            <p style="color: #7321a3; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, necessitatibus nostrum officiis laboriosam.</p>
+        </details>
+    </div>
+
+    
+    <div id="style2nd">Tons of Features</div>
+    <div id="styleback2"> </div>
+
+    <div id="img2nd"> </div>
+
+    <div id="imgx1" class="imgx"></div>
+    <div id="imgx2" class="imgx"></div>
+    <div id="imgx3" class="imgx"></div>
+    <div id="imgx4" class="imgx"></div>
+
+    <div id="imgx5" class="imgx"></div>
+    <div id="imgx6" class="imgx"></div>
+    <div id="imgx7" class="imgx"></div>
+    <div id="imgx8" class="imgx"></div>
+
+    <div id="review" class="rclass">  Read our Rave Reviews   </div>
+    <div id="review2" class="rclass"> Read our Rave Reviews</div>
+    <div id="review3" class="rclass"> Read our Rave Reviews</div>
+
+    <div id="name1" style="line-height: 30px;" class="namex">Billy J. Olds 
+        <p style="font-size: medium; font-weight: 200;">TCC Inc.</p>
+        <p>★ ★ ★ ★ ★</p>
+        <br>
+        <p style="font-size: small; font-weight: 200;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vero dignissimos nulla.</p>
+    </div>
+    
+    <div id="name2" style="line-height: 30px;" class="namex">Jerome T. Armstrong
+        <p style="font-size: medium; font-weight: 200;">OPNB Corp</p>
+        <p>★ ★ ★ ★ ✩</p>
+        <br>
+        <p style="font-size: small; font-weight: 200;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sint! Totam temporibus inventore accusamus, fuga error delectus ipsum impedit vitae dolorum iusto et voluptates nesciunt, repudiandae.</p>
+    </div>
+        
+    <div id="name3" style="line-height: 30px;" class="namex">William G. Grace
+        <p style="font-size: medium; font-weight: 200;">C Collective</p>
+        <p>★ ★ ★ ★ ★</p>
+        <br>
+        <p style="font-size: small; font-weight: 200;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis sequi voluptas quibusdam quasi ipsam minima eligend.</p>
+    </div>
+
+
+    <div id="revimg1" class="revim"></div>
+    <div id="revimg2" class="revim"></div>
+    <div id="revimg3" class="revim"></div>
+
+
+    <footer id="foot">
+        <div id="foots" class="ss">Read to Simplify your Finances?</div>
+        <div id="foots1" class="ss">Read to Simplify your Finances?</div>
+        <div id="call" style="font-size: 130%;">✆ 9123134092</div>
+        <div id="mail" style="font-size: 130%;">✉ hello@gokozo.com</div>
+        
+        
+    </footer>
+
+        
+
+
+
+
+    
+    
+</body>
+</html>
