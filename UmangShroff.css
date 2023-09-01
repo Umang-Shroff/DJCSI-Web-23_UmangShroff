@@ -13,7 +13,8 @@
     right: 0px;
     left: 0px;
 }
-.m{
+.m,
+#m6{
     margin-top: -10px;
     position: absolute;
     margin-left:35px;
@@ -51,12 +52,22 @@
 #m6{
     margin-left: -140px;
     width: 120px;
+    font-size: large;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.904);
+    box-shadow:1px 1px 15px rgba(255, 255, 255, 0.8);
 }
 .m:hover{
     background:rgba(0,0, 0,0.45);
     color:white;
     border: 2px solid white;
     font-weight: 700;
+}
+#m6:hover{
+    background: rgb(219, 218, 218);
+    color:black;
+    text-shadow: 1.5px 1.5px white;
+    box-shadow:none;
 }
 #imagebox{
     margin-top: 10px;
@@ -68,6 +79,7 @@
     z-index: 5;
     background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161709141200936/logo.png");
     background-size: cover; 
+    box-shadow: -2px 5px white;
 }
 #style{
     position: absolute;
