@@ -13,8 +13,7 @@
     right: 0px;
     left: 0px;
 }
-.m,
-#m6{
+.m{
     margin-top: -10px;
     position: absolute;
     margin-left:35px;
@@ -46,28 +45,26 @@
     width: 80px;
 }
 #m5{
-    margin-left: -270px;
-    width: 120px;
+    margin-left: -122px;
+    width: 100px;
+    background-color: rgba(240,255,255,0.9);
+    color: black;
+    /* border:2px solid black;  */
+    box-shadow: 1px 1px 10px 2px azure;
 }
 #m6{
-    margin-left: -140px;
+    margin-left: -265px;
     width: 120px;
-    font-size: large;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.904);
-    box-shadow:1px 1px 15px rgba(255, 255, 255, 0.8);
+}
+#m5:hover{
+    box-shadow:none;
+    border: 1.5px solid black;
 }
 .m:hover{
     background:rgba(0,0, 0,0.45);
     color:white;
     border: 2px solid white;
     font-weight: 700;
-}
-#m6:hover{
-    background: rgb(219, 218, 218);
-    color:black;
-    text-shadow: 1.5px 1.5px white;
-    box-shadow:none;
 }
 #imagebox{
     margin-top: 10px;
@@ -77,9 +74,8 @@
     position: absolute;
     top: 0px;
     z-index: 5;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161709141200936/logo.png");
+    background-image: url("./logo.png");
     background-size: cover; 
-    box-shadow: -2px 5px white;
 }
 #style{
     position: absolute;
@@ -131,7 +127,7 @@
     left: 813px;
     height: 545px;
     width: 450px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161767324594286/1693241145343.png");
+    background-image: url("./1693241145343.png");
     background-size: cover; 
 }
 #secondpg{
@@ -192,7 +188,7 @@
     height:500px;
     width:240px;
     background-color: white;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161767081316453/1693336587108_0_IMG_20230828_222228.png");
+    background-image: url("./img45.png");
     background-size: contain;
 }
 .imgx{
@@ -208,42 +204,42 @@
 #imgx1{
     top: 825px;
     left: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161706117116004/1.png");
+    background-image: url("./1.png");
 }
 #imgx2{
     top: 935px;
     left: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161706683338792/2.png");
+    background-image: url("./2.png");
 }
 #imgx3{
     top: 1045px;
     left: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161707044057108/3.png");
+    background-image: url("./3.png");
 }
 #imgx4{
     top: 1155px;
     left: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161707387998219/4.png");
+    background-image: url("./4.png");
 }
 #imgx5{
     top: 825px;
     right: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161707694166036/5.png");
+    background-image: url("./5.png");
 }
 #imgx6{
     top: 935px;
     right:340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161708004561097/6.png");
+    background-image: url("./6.png");
 }
 #imgx7{
     top: 1045px;
     right: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161708423975022/7.png");
+    background-image: url("./7.png");
 }
 #imgx8{
     top: 1155px;
     right: 340px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161708814061588/8.png");
+    background-image: url("./8.png");
 }
 .rclass{
     position: absolute;
@@ -305,15 +301,15 @@
 }
 #revimg1{
     left: 150px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161709489336362/prof1.png");
+    background-image: url("./prof1.png");
 }
 #revimg2{
     left: 525px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161766632534086/prof2.png");
+    background-image: url("./prof2.png");
 }
 #revimg3{
     left: 920px;
-    background-image: url("https://media.discordapp.net/attachments/1146160099535106182/1146161766875791531/prof3.png");
+    background-image: url("./prof3.png");
 }
 #foot{
     height:290px;
